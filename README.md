@@ -14,6 +14,7 @@ Create a PostgreSQL Database, and run deploy_tool.py for schema and deploy.sh fo
     psql -f fixtures2.sql wotjam
     
 Install Node packages
+
     cd ../node
     npm install express		
     npm install http-server	
@@ -21,6 +22,7 @@ Install Node packages
     npm install pg
     
 Run nodeJS api
+
     node api.js
 
 In a new terminal window, Run http-server
